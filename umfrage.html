@@ -4,10 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Umfrage – em Pott</title>
+<title>Fragebogen / Survey – em Pott</title>
 
 <style>
-
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
                Helvetica, Arial, sans-serif;
@@ -31,8 +30,25 @@ p {
   margin-bottom: 1.4em;
 }
 
-nav {
+.language {
   margin-top: 40px;
+}
+
+.language a {
+  display: block;
+  margin-bottom: 14px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #222;
+  font-weight: 500;
+}
+
+.language a:hover {
+  text-decoration: underline;
+}
+
+nav {
+  margin-top: 50px;
 }
 
 nav a {
@@ -47,42 +63,34 @@ nav a:hover {
   text-decoration: underline;
 }
 
-iframe {
-  width: 100%;
-  min-height: 1100px;
-  border: 0;
-  margin-top: 30px;
-}
-
 .note {
-  margin-top: 40px;
+  margin-top: 20px;
   color: #666;
   font-size: 0.95rem;
 }
-
 </style>
 </head>
 
 <body>
 
-<h1>Umfrage</h1>
+<h1>Fragebogen / Survey</h1>
 
 <p>
-Wir freuen uns über Ihre Teilnahme an unserer kurzen Umfrage.
+Bitte wählen Sie Ihre Sprache. / Please choose your language.
 </p>
 
 <p class="note">
-Die Beantwortung dauert etwa zwei Minuten.
+Die Beantwortung dauert etwa zwei Minuten. / Completing the survey takes about two minutes.
 </p>
 
-<!-- Survey will be embedded here later -->
-
-<p class="note">
-Die Umfrage wird in Kürze hier eingebunden.
-</p>
+<div class="language">
+  <a href="https://forms.gle/bBgzrqAXDD5Pkvpj8">Deutsch</a>
+  <a href="https://forms.gle/piwhYMDfH8YTdKbV6">English</a>
+</div>
 
 <nav>
-<a href="index.html">Startseite</a>
+  <a href="index.html">Startseite / Home</a>
+  <a href="werkstatt.html">Werkstatt</a>
 </nav>
 
 </body>
