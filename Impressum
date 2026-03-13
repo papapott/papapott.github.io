@@ -7,45 +7,39 @@
 <title>Impressum – em Pott</title>
 
 <style>
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-               Helvetica, Arial, sans-serif;
-  max-width: 900px;
-  margin: 90px auto;
-  padding: 0 24px;
-  line-height: 1.65;
-  font-size: 18px;
-  color: #222;
-  background: #fff;
+body{
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+max-width:900px;
+margin:90px auto;
+padding:0 24px;
+line-height:1.65;
+font-size:18px;
+color:#222;
+background:#fff;
 }
 
-h1 {
-  font-weight: 500;
-  font-size: 38px;
-  letter-spacing: 0.02em;
-  margin-bottom: 0.8em;
+h1{
+font-weight:500;
+font-size:38px;
+letter-spacing:0.02em;
+margin-bottom:1em;
 }
 
-p {
-  margin-bottom: 1.4em;
-  max-width: 32em;
+nav{
+margin-top:48px;
+padding-top:18px;
+border-top:1px solid #d8d8d8;
 }
 
-nav {
-  margin-top: 48px;
-  padding-top: 18px;
-  border-top: 1px solid #d8d8d8;
+nav a{
+margin-right:28px;
+text-decoration:none;
+color:#222;
+font-weight:500;
 }
 
-nav a {
-  display: inline-block;
-  color: #222;
-  text-decoration: none;
-  font-weight: 500;
-}
-
-nav a:hover {
-  text-decoration: underline;
+nav a:hover{
+text-decoration:underline;
 }
 </style>
 </head>
@@ -54,9 +48,7 @@ nav a:hover {
 
 <h1>Impressum</h1>
 
-<p>
-Angaben gemäß § 5 DDG
-</p>
+<p>Angaben gemäß § 5 DDG</p>
 
 <p>
 Andrew Holloway<br>
@@ -66,11 +58,12 @@ Deutschland
 </p>
 
 <p>
-E-Mail: anh@rotweiss.de
+E-Mail: ihre@email.de
 </p>
 
 <nav>
 <a href="index.html">Startseite</a>
+<a href="umfrage.html">Fragebogen</a>
 </nav>
 
 </body>
